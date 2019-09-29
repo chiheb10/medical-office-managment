@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/teacher_cardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        card_view:cardCornerRadius="5dp"
+        card_view:cardElevation="5dp">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="513dp"
+            android:background="@drawable/card_background_selector"
+
+            android:descendantFocusability="afterDescendants"
+            android:orientation="vertical"
+            android:paddingBottom="15dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/p_matter_t"
+                android:layout_width="0dp"
+                android:layout_height="28dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="56dp"
+                android:text="description"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                card_view:layout_constraintEnd_toEndOf="@+id/p_phone_t"
+                card_view:layout_constraintHorizontal_bias="0.0"
+                card_view:layout_constraintStart_toEndOf="@+id/imageView4"
+                card_view:layout_constraintTop_toBottomOf="@+id/p_phone_t" />
+
+            <TextView
+                android:id="@+id/p_age_t"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="20dp"
+                android:text="age"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                card_view:layout_constraintEnd_toEndOf="@+id/p_phone_t"
+                card_view:layout_constraintHorizontal_bias="0.0"
+                card_view:layout_constraintStart_toEndOf="@+id/imageView4"
+                card_view:layout_constraintTop_toBottomOf="@+id/p_phone_t" />
+
+            <TextView
+                android:id="@+id/p_firstname_t"
+                android:layout_width="0dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="52dp"
+                android:text="Firstname"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/personimage"
+                app:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintHorizontal_bias="0.985"
+                card_view:layout_constraintStart_toStartOf="parent" />
+
+
+            <TextView
+                android:id="@+id/p_phone_t"
+                android:layout_width="0dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginStart="8dp"
+                android:text="phone_number"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                card_view:layout_constraintEnd_toEndOf="@+id/p_lastname_t"
+                card_view:layout_constraintHorizontal_bias="1.0"
+                card_view:layout_constraintStart_toEndOf="@+id/imageView5"
+                card_view:layout_constraintTop_toBottomOf="@+id/p_lastname_t" />
+
+            <TextView
+                android:id="@+id/p_lastname_t"
+                android:layout_width="275dp"
+                android:layout_height="29dp"
+                android:layout_marginTop="16dp"
+                android:text="lastname"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                card_view:layout_constraintTop_toBottomOf="@+id/p_firstname_t"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="62dp" />
+
+            <android.support.constraint.Guideline
+                android:id="@+id/guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.5"
+                card_view:layout_constraintGuide_end="182dp" />
+
+            <ImageView
+                android:id="@+id/personimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/name"
+                card_view:layout_constraintTop_toTopOf="@+id/p_lastname_t"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="17dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/age"
+                card_view:layout_constraintTop_toTopOf="@+id/p_age_t"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                app:srcCompat="@drawable/mat"
+                card_view:layout_constraintStart_toStartOf="@+id/imageView5"
+                card_view:layout_constraintTop_toTopOf="@+id/p_age_t" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/phone"
+                card_view:layout_constraintTop_toTopOf="@+id/p_phone_t"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="16dp" />
+
+        </android.support.constraint.ConstraintLayout>
+    </android.support.v7.widget.CardView>
+</FrameLayout>

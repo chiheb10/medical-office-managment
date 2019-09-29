@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Scheduler">
+
+    <TextView
+        android:id="@+id/appo1"
+        android:layout_width="269dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="14dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/appo1"
+        android:layout_marginStart="0dp"
+        android:text="8h-8h30"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appo1"
+        android:text="8h30-9h"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/appo2"
+        android:layout_width="269dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appo1"
+        android:layout_marginTop="-1dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/appo3"
+        android:layout_width="269dp"
+        android:layout_height="33dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appo2"
+        android:layout_marginTop="1dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="114dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t2"
+        android:layout_marginTop="1dp"
+        android:text="9h-9h30" />
+
+    <TextView
+        android:id="@+id/appo4"
+        android:layout_width="269dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appo3"
+        android:layout_marginTop="0dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t3"
+        android:layout_marginTop="-1dp"
+        android:text="9h30-10h" />
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t4"
+        android:layout_marginTop="-1dp"
+        android:text="10h-10h30" />
+
+    <TextView
+        android:id="@+id/appo5"
+        android:layout_width="269dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appo4"
+        android:layout_marginTop="0dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/appo6"
+        android:layout_width="269dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appo5"
+        android:layout_marginTop="0dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/t6"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t5"
+        android:layout_marginTop="-1dp"
+        android:text="10h30-11h" />
+    <TextView
+        android:id="@+id/t7"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t6"
+        android:layout_marginTop="-1dp"
+        android:text="11h-11h30" />
+
+    <TextView
+        android:id="@+id/appo7"
+        android:layout_width="269dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appo6"
+        android:layout_marginTop="0dp"
+        android:text="TextView" />
+    <TextView
+        android:id="@+id/t8"
+        android:layout_width="114dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/t7"
+        android:layout_marginTop="-1dp"
+        android:text="11h30-12h" />
+
+    <TextView
+        android:id="@+id/appo8"
+        android:layout_width="269dp"
+        android:layout_height="35dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/appo7"
+        android:layout_marginTop="0dp"
+        android:text="TextView" />
+
+
+</RelativeLayout>

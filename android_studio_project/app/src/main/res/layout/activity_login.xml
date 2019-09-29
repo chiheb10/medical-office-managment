@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:fillViewport="true"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#acacac">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lin_bottom"
+            android:layout_alignParentBottom="true"
+
+            android:orientation="vertical">
+            <TextView
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dont have account?"
+                android:textColor="@color/colorPrimaryDark"/>
+
+            <Button
+                android:id="@+id/tvRegisterHere"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Signup Now"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/lin_bottom"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/baa"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+
+
+
+            <EditText
+                android:id="@+id/etUsername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="UserName"
+                android:textColorHint="#000000"
+                />
+
+            <EditText
+                android:id="@+id/etpassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+               android:hint="password"
+                android:textColorHint="#000000"
+                />
+
+            <Button
+                android:id="@+id/bLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign In" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

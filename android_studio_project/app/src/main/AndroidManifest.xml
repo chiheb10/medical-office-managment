@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.admin.login">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Doctor Appointments"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterAvtivity" />
+        <activity android:name=".doctorAreaActivity" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".user" />
+        <activity android:name=".add_secretary" />
+        <activity android:name=".secretaries_list" />
+        <activity android:name=".searchdoctors" />
+        <activity android:name=".doctors_list" />
+        <activity android:name=".calendar" />
+        <activity android:name=".Scheduler" />
+        <activity android:name=".scheduler_user" />
+        <activity android:name=".formulaire_user" />
+        <activity android:name=".appo_user" />
+        <activity android:name=".secretary_area" />
+        <activity android:name=".scheduler_doctor" />
+        <activity android:name=".calendar_d" />
+        <activity android:name=".popup_window_d" />
+        <activity android:name=".appo_details" />
+        <activity android:name=".calendar_s" />
+        <activity android:name=".scheduler_secretary" />
+        <activity android:name=".appo_sec" />
+        <activity
+            android:name=".drawer"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".settings_2"></activity>
+    </application>
+
+</manifest>

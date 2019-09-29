@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="177dp"
+            android:padding="8dp">
+
+            <Button
+                android:id="@+id/get"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="88dp"
+                android:layout_marginLeft="88dp"
+                android:text="get an appointment" />
+
+
+            <TextView
+                android:id="@+id/tvname"
+                android:layout_width="145dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="35dp"
+                android:layout_marginRight="35dp"
+                android:text="TextView"
+                android:textColor="@color/violet"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Tooltip"/>
+
+            <TextView
+                android:id="@+id/tvphnum"
+                android:layout_width="146dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/tvname"
+                android:layout_alignLeft="@+id/tvname"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="41dp"
+                android:text="TextView"
+                android:textColor="@color/violet"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Tooltip"/>
+
+            <TextView
+                android:id="@+id/tvaddress_d"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@id/tvphnum"
+                android:layout_alignLeft="@id/tvphnum"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="31dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="65dp"
+                android:text="TextView"
+                android:textColor="@color/violet"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Tooltip"/>
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView12"
+                android:layout_alignLeft="@+id/textView12"
+                android:layout_alignTop="@+id/tvname"
+                android:text="Name :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textView13"
+                android:layout_alignLeft="@+id/textView13"
+                android:layout_alignTop="@+id/tvphnum"
+                android:text="Phone:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/holo_red_dark" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/tvaddress_d"
+                android:layout_marginEnd="-88dp"
+                android:layout_marginRight="-88dp"
+                android:layout_toStartOf="@+id/get"
+                android:layout_toLeftOf="@+id/get"
+                android:text="Address :"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@android:color/holo_red_dark" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
